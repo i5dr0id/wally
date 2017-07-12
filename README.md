@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
  ***	   ***
  *** wally ***
  ***  ***  ***
@@ -14,18 +14,15 @@ Pre-requirements
 ## Usage
 ==================
 ```shell
-node wally.js $PATH_TO_IMAGE_DIRECTORY/
+node wally.js 60 $PATH_TO_IMAGE_DIRECTORY/
 ```
         OR
 
 ```shell
-./wally.js $PATH_TO_IMAGE_DIRECTORY/
+./wally.js 60 $PATH_TO_IMAGE_DIRECTORY/
 ```
 
-you can specify the interval at which the wallpaper changes, just change the value for period.
+60 represent 60 seconds
 
-"""var period = 1000 * 60; // 60 seconds(1 min)"""
-=======
 # wally
 A simple wallpaper changer for gnome desktop environment
->>>>>>> 5dfc7c718b85a48667626252db30093d3cd08532
